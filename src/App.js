@@ -14,7 +14,9 @@ export const buttonThemes = {
 
 function App() {
   return (
+    <ThemeContext.Provider value={buttonThemes.black}>
     <Header />
+    </ThemeContext.Provider>
   );
 }
 
